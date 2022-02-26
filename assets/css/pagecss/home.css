@@ -77,5 +77,8 @@ border-radius: 10px;
     background: rgba(153, 204, 255, 0.6);
 }
 .input-item{
-    border-radius: 10px;
+    border-radius: 5px;
+}
+.list-thongtin{
+    overflow-x:scroll;
 }
