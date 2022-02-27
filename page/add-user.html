@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Thêm mới người dùng</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+</head>
+  <body>
+<style>
+    a{
+    text-decoration: none !important;
+    color:black !important;
+}
+li{
+    list-style: none;
+}
+.header{
+    position: absolute;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    background: #FFFFFF;
+}
+.header-info{
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+.list-header{
+    display: flex;
+   
+    float: left;
+}
+.item-header{
+    padding-right:2rem;
+}
+.search-header{
+background: rgba(196, 196, 196, 0.32);
+border-radius: 10px;
+}
+.list-header-right{
+    float:right;
+    display: flex;
+}
+.section-profile{
+    background: #E5E5E5;
+}
+.profile-title h3{
+    padding: 0.5rem 1.5rem;
+}
+.profile-title{
+    width: 33%;
+}
+.profile-function{
+    width: 60%;
+}
+.btn-function{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    margin-left: 1rem;
+}
+.link-function{
+    float: right;
+}
+
+.profile-2{
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    height:100px;
+
+}
+
+/* profile-3 */
+.profile-3{
+    background: #FFFFFF;
+}
+.btn-add{
+    background: rgba(153, 204, 255, 0.6);
+}
+.input-item{
+    border-radius: 10px;
+}
+</style>
+        <div class="section-profile pt-5 pb-5">
+            <div class="container">
+                <div class="profile">
+                    <div class="row">
+                        <div class="profile-title">
+                            <h3 class="">Thêm mới người dùng</h3>
+                        </div>
+                        <div class="profile-function float-right justify-content-end">
+                            <ul class="link-function">
+                                <button class="btn-function"><a href="#"><strong>Hủy</strong></a></button>
+                                </a><button class="btn-function btn-add"><a href="#"><strong>Lưu</strong></a></button>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-2">
+                    <div class=""></div>
+                </div>
+                <div class="profile-3 mt-5 ">
+                    <div class="thongtin p-5">
+                        <h5>Thông tin cơ bản</h5>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <span>Tên người dùng<span class="text-danger">*</span></span>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" class="w-100 input-item">
+                                </div>
+                            </div>
+                            <div class="row pt-3">
+                                <div class="col-md-4">
+                                    <span>Email<span class="text-danger">*</span></span>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" class="w-100 input-item">
+                                </div>
+                            </div>
+                            <div class="row pt-3">
+                                <div class="col-md-4">
+                                    <span>Số điện thoại<span class="text-danger">*</span></span>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" class="w-100 input-item">
+                                </div>
+                            </div>
+                            <div class="row pt-3">
+                                <div class="col-md-4">
+                                    <span>Tên tài khoản<span class="text-danger">*</span></span>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" class="w-100 input-item">
+                                </div>
+                            </div>
+                            <div class="row pt-3">
+                                <div class="col-md-4">
+                                    <span>Role</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <select name="card" id="card">
+                                        <option value="on">1</option>
+                                        <option value="off">0</option>
+                                    </select>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
